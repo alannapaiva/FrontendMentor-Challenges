@@ -1,0 +1,105 @@
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.cards-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.img{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.card-one{
+    background: hsl(31, 77%, 52%);
+    height: 400px;
+    width: 250px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.title{
+    font-size: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-left: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.description{
+    display: block;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    margin-left: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    line-height: 18px;
+    padding: 0;
+}
+
+.card-two{
+    background: hsl(184, 100%, 22%);
+    height: 400px;
+    width: 250px;
+}
+
+.card-three{
+    background: hsl(179, 100%, 13%);
+    height: 400px;
+    width: 250px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    font-size: 0.8rem;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 1.5rem;
+}
+
+.button.-two{
+    color: hsl(184, 100%, 22%);;
+}
+.button.-three{
+    color: hsl(179, 100%, 13%);
+}
+
+
+
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+    .cards-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+      }
+      .card-one {
+        border-top-right-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0rem;
+      }
+      .card-three {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.5rem;
+      }
+}
