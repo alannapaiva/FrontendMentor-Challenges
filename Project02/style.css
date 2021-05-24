@@ -1,6 +1,6 @@
 
 html{
-    background-color: #9700E7;
+    background-color: hsl(185, 75%, 39%);
 }
 
 #container{
@@ -8,40 +8,42 @@ html{
     box-sizing: border-box;
     background-color: #fff;
     position: fixed;
-    width: 400px;
-    height: 396px;
+    height: 375px;
+    width: 350px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    overflow: auto;
     border-radius: 10px;
     color: hsl(0, 0%, 59%);
     max-width: 400px;
     margin: auto;
     font-family: "Kumbh Sans", sans-serif;
+    box-shadow: 0 0 6em hsl(0, 0%, 20%);
+    box-shadow: 0 0 6em hsl(0, 0%, 20%);
 }
 
 #background-top{
-    background-image: url(./img/background-top.png);
+    background-image: url(./images/bg-pattern-card.svg);
     box-sizing: border-box;
-    height: 160px;
+    height: 130px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 #image{
+    background-image: url(./images/image-victor.jpg);
     border-radius: 50%;
     border: 5px solid white;
     left: 50%;
     top: 38%;
     transform: translate(-50%, -50%);
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 96px;
+    height: 96px;
 }
 
 #card-info{
-    margin-top: 60px;
+    margin-top: 75px;
 }
 
 #title{
@@ -53,6 +55,8 @@ html{
 
 #idade{
     color: hsl(0, 0%, 59%);
+    margin-left: 7px;
+    font-weight: normal;
 }
 
 #cidade{
